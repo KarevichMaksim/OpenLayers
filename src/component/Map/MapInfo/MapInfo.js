@@ -1,9 +1,10 @@
 import './MapInfo.scss'
 
-export function MapInfo(){
+export function MapInfo() {
     return (
         <section className='map-info'>
-            Ukraine
+            <div id="country-name"></div>
+            <img id="country-flag" src="" />
         </section>
     )
 }

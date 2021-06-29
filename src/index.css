@@ -1,3 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: rgba(145, 144, 143, 0.1);
+}

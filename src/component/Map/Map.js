@@ -5,6 +5,7 @@ import TileLayer from 'ol/layer/Tile';
 import XYZ from "ol/source/XYZ";
 import 'ol/ol.css';
 import './Map.scss';
+import {GridLayer} from "./GridLayer/GridLayer";
 
 export function Map() {
     const [map, setMap] = useState();
@@ -27,5 +28,5 @@ export function Map() {
         }));
     }, [])
 
-    return <div className='map' id='map'>{map && <VectorLayer map={map}/>}</div>
+    return <div className='map' id='map'>{map && (<><VectorLayer map={map}/><GridLayer map={map} /></>)}</div>
 }
