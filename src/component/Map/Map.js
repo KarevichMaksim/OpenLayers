@@ -4,7 +4,7 @@ import {Map as OlMap, View} from 'ol';
 import TileLayer from 'ol/layer/Tile';
 import XYZ from "ol/source/XYZ";
 import 'ol/ol.css';
-import './Map.css';
+import './Map.scss';
 
 export function Map() {
     const [map, setMap] = useState();

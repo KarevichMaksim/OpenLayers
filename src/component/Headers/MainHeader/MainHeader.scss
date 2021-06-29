@@ -1,0 +1,26 @@
+.main-header {
+    width: 100%;
+    height: 10vh;
+    &__logo{
+        display: flex;
+        width: 100%;
+        height: 50%;
+        font-size: 32px;
+    }
+    &__nav{
+        display: flex;
+        width: 100%;
+        height: 50%;
+        font-size: 22px;
+        justify-content: flex-end;
+    }
+    &__nav-list{
+        display: flex;
+        margin: 0;
+    }
+    &__nav-item{
+        list-style-type: none;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+}
